@@ -1,0 +1,31 @@
+/**{*/
+/*    margin: 0;*/
+/*}*/
+.BookingMargin{
+    margin: 0;
+}
+
+.BookingBackground{
+    background-color: white;
+    width: 325px;
+    height: 267px;
+    margin-bottom: 30px;
+}
+
+.BookingFlex{
+    display: flex;
+}
+
+.BookingImgBackground{
+    height: 105px;
+}
+.BookingImgIcon{
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+}
+.BookingFlexWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
