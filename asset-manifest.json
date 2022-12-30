@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/css/main.cfbddc53.css",
-    "main.js": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/js/main.c25bd9d1.js",
-    "static/js/787.d053ff59.chunk.js": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/js/787.d053ff59.chunk.js",
-    "static/media/id5.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/id5.81f7db8629b956248729.png",
-    "static/media/id4.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/id4.2e28f83028bff752a0f4.png",
-    "static/media/id1.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/id1.a610a9f3119e434b0392.png",
-    "static/media/id3.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/id3.1470d0dbfadd3b14be23.png",
-    "static/media/id6.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/id6.480cae925ada4bc807d8.png",
-    "static/media/id2.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/id2.70128870316ddd311481.png",
-    "static/media/assets.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/assets.b8b43ab3e2d60c7706ea.png",
-    "static/media/deshboard.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/deshboard.35d9e4c9417b82dcfc94.png",
-    "static/media/services.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/services.d83523a8c4ec95c1e01d.png",
-    "static/media/car.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/car.778a0e1d0c78872e0585.png",
-    "static/media/search.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/search.b227f5e560f3ae38e7e5.png",
-    "static/media/bayCars.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/bayCars.f264b1c1ae35816938f5.png",
-    "static/media/messages.png": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/media/messages.03a65c21e34da0457679.png",
-    "index.html": "/bentsa-s.github.io/car-dashboard-from-react.dit/index.html",
-    "main.cfbddc53.css.map": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/css/main.cfbddc53.css.map",
-    "main.c25bd9d1.js.map": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/js/main.c25bd9d1.js.map",
-    "787.d053ff59.chunk.js.map": "/bentsa-s.github.io/car-dashboard-from-react.dit/static/js/787.d053ff59.chunk.js.map"
+    "main.css": "/car-dashboard/static/css/main.cfbddc53.css",
+    "main.js": "/car-dashboard/static/js/main.28781662.js",
+    "static/js/787.d053ff59.chunk.js": "/car-dashboard/static/js/787.d053ff59.chunk.js",
+    "static/media/id5.png": "/car-dashboard/static/media/id5.81f7db8629b956248729.png",
+    "static/media/id4.png": "/car-dashboard/static/media/id4.2e28f83028bff752a0f4.png",
+    "static/media/id1.png": "/car-dashboard/static/media/id1.a610a9f3119e434b0392.png",
+    "static/media/id3.png": "/car-dashboard/static/media/id3.1470d0dbfadd3b14be23.png",
+    "static/media/id6.png": "/car-dashboard/static/media/id6.480cae925ada4bc807d8.png",
+    "static/media/id2.png": "/car-dashboard/static/media/id2.70128870316ddd311481.png",
+    "static/media/assets.png": "/car-dashboard/static/media/assets.b8b43ab3e2d60c7706ea.png",
+    "static/media/deshboard.png": "/car-dashboard/static/media/deshboard.35d9e4c9417b82dcfc94.png",
+    "static/media/services.png": "/car-dashboard/static/media/services.d83523a8c4ec95c1e01d.png",
+    "static/media/car.png": "/car-dashboard/static/media/car.778a0e1d0c78872e0585.png",
+    "static/media/search.png": "/car-dashboard/static/media/search.b227f5e560f3ae38e7e5.png",
+    "static/media/bayCars.png": "/car-dashboard/static/media/bayCars.f264b1c1ae35816938f5.png",
+    "static/media/messages.png": "/car-dashboard/static/media/messages.03a65c21e34da0457679.png",
+    "index.html": "/car-dashboard/index.html",
+    "main.cfbddc53.css.map": "/car-dashboard/static/css/main.cfbddc53.css.map",
+    "main.28781662.js.map": "/car-dashboard/static/js/main.28781662.js.map",
+    "787.d053ff59.chunk.js.map": "/car-dashboard/static/js/787.d053ff59.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfbddc53.css",
-    "static/js/main.c25bd9d1.js"
+    "static/js/main.28781662.js"
   ]
 }
