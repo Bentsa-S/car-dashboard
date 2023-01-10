@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/car-dashboard/static/css/main.d8c15aa1.css",
-    "main.js": "/car-dashboard/static/js/main.e1a235a5.js",
+    "main.css": "/car-dashboard/static/css/main.f6b61542.css",
+    "main.js": "/car-dashboard/static/js/main.25fc982b.js",
     "static/media/car.png": "/car-dashboard/static/media/car.778a0e1d0c78872e0585.png",
     "static/media/id5.png": "/car-dashboard/static/media/id5.81f7db8629b956248729.png",
     "static/media/id4.png": "/car-dashboard/static/media/id4.2e28f83028bff752a0f4.png",
@@ -16,11 +16,11 @@
     "static/media/bayCars.png": "/car-dashboard/static/media/bayCars.f264b1c1ae35816938f5.png",
     "static/media/messages.png": "/car-dashboard/static/media/messages.03a65c21e34da0457679.png",
     "index.html": "/car-dashboard/index.html",
-    "main.d8c15aa1.css.map": "/car-dashboard/static/css/main.d8c15aa1.css.map",
-    "main.e1a235a5.js.map": "/car-dashboard/static/js/main.e1a235a5.js.map"
+    "main.f6b61542.css.map": "/car-dashboard/static/css/main.f6b61542.css.map",
+    "main.25fc982b.js.map": "/car-dashboard/static/js/main.25fc982b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8c15aa1.css",
-    "static/js/main.e1a235a5.js"
+    "static/css/main.f6b61542.css",
+    "static/js/main.25fc982b.js"
   ]
 }
