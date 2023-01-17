@@ -1,10 +1,11 @@
 import React from "react";
+import MapSellCarsOfCar from "./Car/Car.container";
 
 
 const SellCarsSection = () => {
     return(
         <div>
-            <p>qwdd</p>
+            <MapSellCarsOfCar/>
         </div>
     )
 }
