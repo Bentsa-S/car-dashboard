@@ -20,7 +20,6 @@ const Post = (props) => {
                 </div>
                 <div>
                     {props.price}
-                    <p>d</p>
                 </div>
             </div>
         </div>
