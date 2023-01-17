@@ -1,0 +1,62 @@
+.flexAssets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backgroundCarAssets{
+    background-color: #438FFE;
+    width: 340px;
+    height: 564px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgCarAssets{
+    width: 256px;
+    margin-bottom: -100px;
+}
+
+.carFontAssets{
+    font-size: 11px;
+    color: #C6DCFC;
+}
+
+.carFontAssetsForPrise{
+    color: white;
+}
+.width100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+/*statistic*/
+.circleAssets{
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    box-shadow:  1px 1px 4px black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statisticContainerAssets{
+    width: 311px;
+    height: 344px;
+    border-radius: 14px;
+    margin-right: 20px;
+    background-color: white;
+}
+.backgroundScheduleAssets{
+    width: 639px;
+    height: 270px;
+}
