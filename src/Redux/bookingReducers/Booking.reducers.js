@@ -33,17 +33,24 @@ export const BookingCardsReducer = (state = defaultState, action) =>{
                 name: state.add.name,
                 prise: state.add.prise
             }
-            state.post.push(newPost);
-            state.add.id = 0;
-            state.add.name = '';
-            state.add.prise = '';
-            return state;
+
+            return {
+                ...state,
+                post: [...state.post, newPost],
+                ...state.add.id = 0,
+                ...state.add.name = '',
+                ...state.add.prise = ''
+            }
         case UPDATE_NEW_POST_PRISE:
-            state.add.prise = action.newPrise;
-            return state;
+            return {
+                ...state,
+                ...state.add.prise = action.newPrise
+            }
         case UPDATE_NEW_POST_NAME:
-            state.add.name = action.newName;
-            return state;
+            return {
+                ...state,
+                ...state.add.name = action.newName
+            }
         default:
             return state
     }
