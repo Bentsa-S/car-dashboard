@@ -9,7 +9,7 @@ function App(props) {
         <BrowserRouter>
             <div className={style.flexApp}>
                 <Manu/>
-                <Main  />
+                <Main/>
             </div>
         </BrowserRouter>
     </div>

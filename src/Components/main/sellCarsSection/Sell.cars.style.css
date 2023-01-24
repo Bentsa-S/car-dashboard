@@ -1,0 +1,32 @@
+.imgStandSellCar{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.imgStandSellCar1{
+    position: absolute;
+    opacity: .6;
+    top: 40%;
+    left: 7%;
+}
+.imgStandSellCar2{
+    position: absolute;
+    opacity: .2;
+    top: 50%;
+    left: 7%;
+}
+.imgCarSellCar{
+    position: absolute;
+    z-index: 1;
+    top: 11%;
+    left: 16%;
+}
+
+.carContainerSellCar{
+    position: relative;
+    width: 607px;
+    height: 348px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 25px;
+}

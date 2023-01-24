@@ -1,23 +1,9 @@
-import {
-    Chart as ChartJS,
-    LineElement,
-    CategoryScale,
-    LinearScale,
-    PointElement
-} from "chart.js";
-
-ChartJS.register(
-    LineElement,
-    CategoryScale,
-    LinearScale,
-    PointElement
-)
 
 
 const defaultState = {
     data1: {
         data:  {
-            labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+            labels: ['1'],
             datasets: [
                 {
                     label: 'dscoijsd',

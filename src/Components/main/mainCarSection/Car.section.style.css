@@ -9,7 +9,6 @@
     justify-content: space-around;
 }
 
-
 .containerCardStatistic{
     margin-top: 27px;
     width: 232px;
@@ -36,8 +35,21 @@
 
 /*car cards*/
 
+.backgroundCarCards{
+    height: calc(10px + 210 * (100vw / 1920));
+    width: calc(15px + 274 * (100vw / 1920));
+    border-radius: calc(4px + 10 * (100vw / 1920));
+    padding: 15px 20px 15px 20px;
+}
+
+.flexTitleCarCardsSection{
+    display: flex;
+    align-items: center;
+    margin-bottom: calc(6px + 4 * (100vw / 1920));
+
+}
 .car{
-    height: 106px;
+    height: calc(5px + 105 * (100vw / 1920));
 }
 .carContainer{
     width: 276px;
@@ -50,9 +62,9 @@
     flex-direction: column;
 }
 .carImgStyle{
-    width: 20px;
-    height: 20px;
-    margin: 0 15px 0 15px;
+    width: calc(3px + 17 * (100vw / 1920));
+    height: calc(3px + 17 * (100vw / 1920));
+    margin: 0 calc(2px + 13 * (100vw / 1920)) 0 0;
 }
 .carFlex{
     width: 100%;
@@ -62,11 +74,13 @@
 }
 .t{
     width: 100%;
-    margin: 0 0 0 15px;
+    margin: calc(0px + 9 * (100vw / 1920)) 0 calc(0px + 9 * (100vw / 1920)) 0;
     text-align: left;
-    font-size: 26px;
+    font-size: calc(1px + 17 * (100vw / 1920));
 }
-
+.textTitleCarCards{
+    font-size: calc(0px + 15 * (100vw / 1920));
+}
 
 
 .flexApp{

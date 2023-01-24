@@ -6,14 +6,17 @@ import img4 from "../../../../icone/iconeSectionMain/carCards/icon/4.png";
 import '../Car.section.style.css';
 
 const CarCard = (props) =>{
+    let marginRight = {
+        marginRight: '15px',
+    }
     let background = {
         background: props.background,
     }
     return(
-        <div style={background}>
-            <div className= 'f'>
+        <div className={'backgroundCarCards'} style={background}>
+            <div className= 'flexTitleCarCardsSection'>
                 <img className='carImgStyle' src={img1}/>
-                <p>{props.recommend}</p>
+                <div className='textTitleCarCards'>{props.recommend}</div>
             </div>
             <img className='car' src={props.img}/>
 
@@ -21,12 +24,12 @@ const CarCard = (props) =>{
             <div className='carFlex'>
                 <div className='carFlex'>
                     <img className='carImgStyle' src={img2}/>
-                    <p>{props.views}</p>
+                    <p className={'textTitleCarCards'} style={marginRight}>{props.views}</p>
                     <img className='carImgStyle' src={img3}/>
                     <img className='carImgStyle' src={img4}/>
                 </div>
 
-                <p>{props.price}</p>
+                <p className='textTitleCarCards'>{props.price}</p>
             </div>
         </div>
     )
