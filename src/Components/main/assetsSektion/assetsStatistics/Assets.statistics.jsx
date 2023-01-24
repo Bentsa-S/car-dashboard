@@ -9,47 +9,47 @@ const AssetsStatistics = () => {
         <div>
             <div className={'flexAssets'}>
                 <div className={'statisticContainerAssets'}>
-                    <h2>Noties</h2>
+                    <h2 className={'titleAssetsStatistic'}>Noties</h2>
                     <div className={'flexAssets'}>
                         <div className={'circleAssets'}>
-                            <img src={img1} alt=""/>
+                            <img className={'imgAssetsStatistic'} src={img1} alt=""/>
                         </div>
 
                         <div>
-                            <p>monday,</p>
-                            <p>Book for Greneral Service</p>
+                            <p className={'textAssetsStatistic'}>monday,</p>
+                            <p className={'textAssetsStatistic'}>Book for Greneral Service</p>
                         </div>
                     </div>
                     <div className={'flexAssets'}>
                         <div className={'circleAssets'}>
-                            <img src={img2} alt=""/>
+                            <img className={'imgAssetsStatistic'} src={img2} alt=""/>
                         </div>
 
                         <div>
-                            <p>Thursday,</p>
-                            <p>Vehicle LV OO1 has been</p>
+                            <p className={'textAssetsStatistic'}>Thursday,</p>
+                            <p className={'textAssetsStatistic'}>Vehicle LV OO1 has been</p>
                         </div>
                     </div>
                     <div className={'flexAssets'}>
                         <div className={'circleAssets'}>
-                            <img src={img3} alt=""/>
+                            <img className={'imgAssetsStatistic'} src={img3} alt=""/>
                         </div>
 
                         <div>
-                            <p>monday,</p>
-                            <p>Maintenance Completed</p>
+                            <p className={'textAssetsStatistic'}>monday,</p>
+                            <p className={'textAssetsStatistic'}>Maintenance Completed</p>
                         </div>
                     </div>
                 </div>
 
                 <div className={'statisticContainerAssets'}>
-                    <h2>Available Sensors</h2>
-                    <p>Asset - Fuel Consumed (10)</p>
-                    <p>Asset - Odometer (km)</p>
-                    <p>Asset - Runtime (km)</p>
-                    <p>Asset - Speed (hr)</p>
-                    <p>Engine Temperature (deg C)</p>
-                    <button>See all</button>
+                    <h2 className={'titleAssetsStatistic'}>Available Sensors</h2>
+                    <p className={'textAssetsStatistic'}>Asset - Fuel Consumed (10)</p>
+                    <p className={'textAssetsStatistic'}>Asset - Odometer (km)</p>
+                    <p className={'textAssetsStatistic'}>Asset - Runtime (km)</p>
+                    <p className={'textAssetsStatistic'}>Asset - Speed (hr)</p>
+                    <p className={'textAssetsStatistic'}>Engine Temperature (deg C)</p>
+                    <button className={'buttonAssetsStatistic'}>See all</button>
                 </div>
             </div>
 
