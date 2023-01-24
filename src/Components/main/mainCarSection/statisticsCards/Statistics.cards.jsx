@@ -9,9 +9,9 @@ const StatisticsCard = (props) =>{
     return(
         <div className='containerCardStatistic'>
             <div className='backgroundLogoStatistic' style={background}>
-                <img src={props.logo}/>
+                <img className={'imgCarStatistic'} src={props.logo}/>
             </div>
-            <h1>{props.name}</h1>
+            <h3 className={'titleCarStatistic'}>{props.name}</h3>
             <src>
                 <circle></circle>
             </src>
