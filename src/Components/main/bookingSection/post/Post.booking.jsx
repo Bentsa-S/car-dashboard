@@ -9,8 +9,10 @@ const Post = (props) => {
             <div className='BookingFlex'>
                 <p className='BookingMargin'>{props.name}</p>
             </div>
-            <p>Coupe</p>
-            <img className='BookingImgBackground' src={props.carImg}/>
+            <p className={'BookingSupTitle'}>Coupe</p>
+            <div className={'BookingFlex'}>
+                <img className='BookingImgBackground' src={props.carImg}/>
+            </div>
             <div className='BookingFlex'>
                 <div className= 'BookingFlex'>
                     <img className='BookingImgIcon' src={img2}/>
@@ -19,7 +21,7 @@ const Post = (props) => {
                     <p className='BookingMargin'>Manual</p>
                 </div>
                 <div>
-                    {props.price}
+                    <p className={'BookingPrice'}>{props.price}</p>
                 </div>
             </div>
         </div>

@@ -1,28 +1,39 @@
-/**{*/
-/*    margin: 0;*/
-/*}*/
+/*Post Booking*/
+
 .BookingMargin{
     margin: 0;
+    font-size: calc(1px + 14 * (100vw / 1920));
 }
 
 .BookingBackground{
     background-color: white;
-    width: 325px;
-    height: 267px;
-    margin-bottom: 30px;
+    width: calc(25px + 300 * (100vw / 1920));
+    height: calc(17px + 250 * (100vw / 1920));
+    margin-bottom: calc(5px + 25 * (100vw / 1920));
 }
 
 .BookingFlex{
     display: flex;
+    justify-content: space-between;
+}
+
+.BookingSupTitle{
+    font-size: calc(2px + 15 * (100vw / 1920));
+}
+
+.BookingPrice{
+    font-size: calc(2px + 13 * (100vw / 1920));
+    margin: 0;
 }
 
 .BookingImgBackground{
-    height: 105px;
+    height: calc(25px + 90 * (100vw / 1920));
+    margin: auto;
 }
 .BookingImgIcon{
-    width: 17px;
-    height: 17px;
-    margin-left: 10px;
+    width: calc(2px + 15 * (100vw / 1920));
+    height: calc(2px + 15 * (100vw / 1920));
+    margin-left: calc(1px + 9 * (100vw / 1920));
 }
 .BookingFlexWrap{
     display: flex;
